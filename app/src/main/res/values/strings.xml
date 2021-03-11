@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Top Artists</string>
+    <string name="cd_application_logo">Application Logo</string>
+    <string name="label_monthly_listeners">Monthly Listeners:</string>
+    <string name="value_default_monthly_listeners">99,000,000</string>
+    <string name="label_artist_name">Artist Name</string>
+    <string name="label_top_artists_list">Top Artists List</string>
+    <string name="label_favorite">My Favorite</string>
+    <string name="label_other">Other</string>
+    <string name="label_about_developer">About Developer</string>
+    <string name="label_forks_on_github">Forks on Github</string>
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
 </resources>

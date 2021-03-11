@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_top_artists">
+
+    <fragment
+        android:id="@+id/nav_top_artists"
+        android:name="id.rosyid.topartists.ui.main.artists.ArtistsFragment"
+        android:label="@string/label_top_artists_list"
+        tools:layout="@layout/fragment_artists" />
+
+    <fragment
+        android:id="@+id/nav_favorite_artist"
+        android:name="id.rosyid.topartists.ui.main.favorite.FavoriteFragment"
+        android:label="@string/label_favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+</navigation>

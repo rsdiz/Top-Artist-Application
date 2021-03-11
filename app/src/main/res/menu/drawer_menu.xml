@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_top_artists"
+            android:icon="@drawable/ic_baseline_view_list_24"
+            android:title="@string/label_top_artists_list" />
+        <item
+            android:id="@+id/nav_favorite_artist"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:title="@string/label_favorite" />
+    </group>
+    <item android:title="@string/label_other">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_developer_profile"
+                    android:checkable="false"
+                    android:icon="@drawable/ic_baseline_person_24"
+                    android:title="@string/label_about_developer" />
+                <item
+                    android:id="@+id/nav_fork_on_github"
+                    android:checkable="false"
+                    android:icon="@drawable/ic_baseline_code_24"
+                    android:title="@string/label_forks_on_github" />
+            </group>
+        </menu>
+    </item>
+</menu>
