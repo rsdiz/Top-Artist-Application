@@ -1,6 +1,7 @@
 package id.rosyid.topartists.ui.main
 
 import android.content.Intent
+import android.content.SharedPreferences
 import android.content.res.Configuration
 import android.net.Uri
 import android.os.Bundle
@@ -17,6 +18,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.navigation.NavigationView
 import id.rosyid.topartists.R
 import id.rosyid.topartists.ui.about.AboutActivity
+import id.rosyid.topartists.utils.Const
 
 class MainActivity : AppCompatActivity() {
 

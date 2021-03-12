@@ -11,4 +11,19 @@
     <string name="label_forks_on_github">Forks on Github</string>
     <string name="drawer_open">Drawer open</string>
     <string name="drawer_close">Drawer close</string>
+    <string name="label_album_lists">Album Lists</string>
+    <string name="label_genre">Genre</string>
+    <string name="label_album_image">Album Image</string>
+    <string name="label_song_title">Song Title</string>
+    <string name="label_duration_song">Duration: 00:00</string>
+    <string name="cd_button_to_youtube">Button to YouTube</string>
+    <string name="cd_button_to_spotify">Button to Spotify</string>
+    <string name="cd_song_image_cover">Song Image Cover</string>
+    <string name="text_add_to_favorite">Add to Favorite</string>
+    <string name="text_share">Share</string>
+    <string name="label_artist_image">Artist Image</string>
+    <string name="value_default_position">1</string>
+    <string name="text_share_downloadnow">Thanks to the developer, for making this application, so I can see the list of artists with the most listeners this month, do you want to know? let\'s download the application at https://www.github.com/rsdiz</string>
+    <string name="author_name">Muhammad Rosyid Izzulkhaq</string>
+    <string name="author_email">Email: rosyid.iz.rsd@gmail.com</string>
 </resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="4dp"
+    android:layout_marginTop="4dp">
+
+    <FrameLayout
+        android:id="@+id/song_image_container"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="12dp">
+
+        <ImageView
+            android:id="@+id/song_image_cover"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="@string/cd_song_image_cover" />
+
+        <TextView
+            android:id="@+id/song_number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:fontFamily="@font/cairo_black"
+            android:textColor="#88FFFFFF"
+            android:background="#33000000"
+            android:textSize="28sp"
+            android:gravity="center" />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/song_button_layout"
+        android:layout_toEndOf="@id/song_image_container"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/song_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cairo_bold"
+            android:maxLines="1"
+            android:text="@string/label_song_title"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/song_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cairo"
+            android:text="@string/label_duration_song"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/song_button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_open_youtube"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_youtube"
+            android:contentDescription="@string/cd_button_to_youtube" />
+
+        <ImageButton
+            android:id="@+id/button_open_spotify"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_spotify"
+            android:contentDescription="@string/cd_button_to_spotify" />
+
+        <ToggleButton
+            android:layout_gravity="center"
+            android:id="@+id/tb_favorite"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/ic_baseline_favorite_border_32"
+            android:textOff=""
+            android:textOn=""/>
+
+    </LinearLayout>
+
+</RelativeLayout>

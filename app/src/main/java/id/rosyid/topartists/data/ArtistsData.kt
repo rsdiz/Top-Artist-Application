@@ -57,10 +57,10 @@ object ArtistsData {
         "Ariana Grande-Butera (/ˌɑːriˈɑːnə ˈɡrɑːndeɪ/, born June 26, 1993) is an American singer and actress. Born in Boca Raton, Florida, Grande began her career at age 15 in the 2008 Broadway musical 13. She rose to fame for her role as Cat Valentine in the Nickelodeon television series Victorious (2010–2013) and Sam & Cat (2013–2014). She subsequently signed with Republic Records in 2011 after the label's executives discovered YouTube videos of her covering songs. Her 1950s doo-wop-influenced pop and R&B debut album, Yours Truly (2013), topped the US Billboard 200 chart, while its lead single, \"The Way\", charted in the top ten of the US Billboard Hot 100. Upon release, critics compared Grande to Mariah Carey for her wide vocal range and whistle register.",
         "Edward Christopher Sheeran MBE (/ˈʃɪərən/; born 17 February 1991) is an English singer, songwriter, musician, record producer, actor, and businessman. After first recording music in 2004, he began gaining attention through YouTube. In early 2011, Sheeran independently released the extended play, No. 5 Collaborations Project. He signed with Asylum Records the same year.",
         "José Álvaro Osorio Balvín (born May 7, 1985), better known as J Balvin, is a Colombian reggaeton singer. He has been referred to as the \"Prince of Reggaeton\" (from Spanish: \"Príncipe del Reggaetón\"), and is one of the best-selling Latin music artists with sales of more than 35 million records (albums and singles) worldwide. Balvin was born in Medellín, Colombia. At age 17, he moved to the United States to learn English, where he lived in both Oklahoma and New York. He then returned to Medellín and gained popularity performing at clubs in the city.",
-        "Aubrey Drake Graham[5] (born October 24, 1986) is a Canadian rapper, singer, songwriter, actor, and entrepreneur. A prominent figure in popular music, Drake is credited for popularizing the Toronto sound. He first gained recognition as an actor on the teen drama television series Degrassi: The Next Generation (2001–2007); intent on pursuing a career in music, he left the series after releasing his debut mixtape Room for Improvement. He released two more independent projects, Comeback Season and So Far Gone, before signing to Young Money Entertainment.",
-        "Billie Eilish Pirate Baird O'Connell (/ˈaɪlɪʃ/ EYE-lish;[1] born December 18, 2001) is an American singer-songwriter. She first gained attention in 2015 when she uploaded the song \"Ocean Eyes\" to SoundCloud, which was subsequently released by the Interscope Records subsidiary Darkroom. The song was written and produced by her brother Finneas O'Connell, with whom she collaborates on music and live shows. Her debut EP, Don't Smile at Me (2017), became a sleeper hit, reaching the top 15 in the US, UK, Canada, and Australia.",
+        "Aubrey Drake Graham (born October 24, 1986) is a Canadian rapper, singer, songwriter, actor, and entrepreneur. A prominent figure in popular music, Drake is credited for popularizing the Toronto sound. He first gained recognition as an actor on the teen drama television series Degrassi: The Next Generation (2001–2007); intent on pursuing a career in music, he left the series after releasing his debut mixtape Room for Improvement. He released two more independent projects, Comeback Season and So Far Gone, before signing to Young Money Entertainment.",
+        "Billie Eilish Pirate Baird O'Connell (/ˈaɪlɪʃ/ EYE-lish; born December 18, 2001) is an American singer-songwriter. She first gained attention in 2015 when she uploaded the song \"Ocean Eyes\" to SoundCloud, which was subsequently released by the Interscope Records subsidiary Darkroom. The song was written and produced by her brother Finneas O'Connell, with whom she collaborates on music and live shows. Her debut EP, Don't Smile at Me (2017), became a sleeper hit, reaching the top 15 in the US, UK, Canada, and Australia.",
         "Benito Antonio Martínez Ocasio (born March 10, 1994), known by his stage name Bad Bunny, is a Puerto Rican rapper, singer, and songwriter. His music is often defined as Latin trap and reggaeton, but he has incorporated various other genres into his music, including rock, bachata, and soul. He is also known for his deep, slurred vocal style and his eclectic fashion sense. Throughout his career, Bad Bunny has frequently collaborated with artists such as J Balvin, Farruko, Residente, Arcángel, Jhay Cortez, and Daddy Yankee.",
-        "Maroon 5 is an American pop rock band from Los Angeles, California.[1][2] It currently consists of lead vocalist Adam Levine, keyboardist and rhythm guitarist Jesse Carmichael, lead guitarist James Valentine, drummer Matt Flynn, keyboardist PJ Morton and multi-instrumentalist Sam Farrar. Original members Levine, Carmichael, bassist Mickey Madden, and drummer Ryan Dusick first came together as Kara's Flowers in 1994, while they were still in high school."
+        "Maroon 5 is an American pop rock band from Los Angeles, California. It currently consists of lead vocalist Adam Levine, keyboardist and rhythm guitarist Jesse Carmichael, lead guitarist James Valentine, drummer Matt Flynn, keyboardist PJ Morton and multi-instrumentalist Sam Farrar. Original members Levine, Carmichael, bassist Mickey Madden, and drummer Ryan Dusick first came together as Kara's Flowers in 1994, while they were still in high school."
     )
 
     private val artistAlbums = arrayListOf(
@@ -85,7 +85,8 @@ object ArtistsData {
                     Song("After Hours", "6:01", R.drawable.song_after_hours, "https://open.spotify.com/track/3WAXILvmHFoyVHnK0kDK1S?autoplay=true", "https://music.youtube.com/watch?v=1u2fLSfAjK0&feature=gws_kp_track"),
                     Song("Until I Bleed Out", "3:10", R.drawable.song_until_i_bleed_out, "https://open.spotify.com/track/2BcnxwxBuar5wjCaLqm5N3?autoplay=true", "https://music.youtube.com/watch?v=Hb80hqz2SBs&feature=gws_kp_track")
                 ),
-                "56 Minutes"
+                "56 Minutes",
+                R.drawable.album_after_hours
             ),
             Album(
                 "My Dear Melancholy,",
@@ -98,7 +99,8 @@ object ArtistsData {
                     Song("Hurt You", "3:50", R.drawable.song_hurt_you, "https://open.spotify.com/track/56fUbkZ2DHk2PixrNaxlzJ?autoplay=true", "https://music.youtube.com/watch?v=TZtps5Q5g08&feature=gws_kp_track"),
                     Song("Privilege", "2:51", R.drawable.song_privilege, "https://open.spotify.com/track/0Nwar8rweBUyfyuoyjjUvk?autoplay=true", "https://music.youtube.com/watch?v=iBYhYsKGmxw&feature=gws_kp_track")
                 ),
-                "25 Minutes"
+                "25 Minutes",
+                R.drawable.album_my_dear_melancholy
             ),
             Album(
                 "Starboy",
@@ -123,7 +125,8 @@ object ArtistsData {
                     Song("Die for You", "4:20", R.drawable.song_die_for_you, "https://open.spotify.com/track/6jl4C5KnJ8PAbQgamwEsPG?autoplay=true", "https://music.youtube.com/watch?v=mTLQhPFx2nM&feature=gws_kp_track"),
                     Song("I Feel It Coming", "4:29", R.drawable.song_i_feel_it_coming, "https://open.spotify.com/track/3dhjNA0jGA8vHBQ1VdD6vV?autoplay=true", "https://music.youtube.com/watch?v=qPRNIHxLhmc&feature=gws_kp_track")
                 ),
-                "1 Hours 8 Minutes"
+                "1 Hours 8 Minutes",
+                R.drawable.album_starboy
             )
         ),
         // Dua Lipa Album Lists
@@ -146,7 +149,8 @@ object ArtistsData {
                     Song("Levitating (feat. DaBaby)", "3:23", R.drawable.song_levitating, "https://open.spotify.com/track/5nujrmhLynf4yMoMtj8AQF?si=r3ad0VknSJawab8ru4FlIw", "https://www.youtube.com/watch?v=TUVcZfQe-Kw"),
                     Song("Fever", "2:37", R.drawable.song_fever, "https://open.spotify.com/track/7KqUaHPO6m4uYg276qqsfa?autoplay=true", "https://music.youtube.com/watch?v=AiYcIlzsnMI&feature=gws_kp_track")
                 ),
-                "43 Minutes"
+                "43 Minutes",
+                R.drawable.album_future_nostalgia
             ),
             Album(
                 "Dua Lipa",
@@ -170,7 +174,8 @@ object ArtistsData {
                     Song("Bad Together", "3:59", R.drawable.song_bad_together, "https://open.spotify.com/track/0LwbO2KIQw1uR2FCqwaKAu?autoplay=true", "https://music.youtube.com/watch?v=dC6BQD4NiVI&feature=gws_kp_track"),
                     Song("Last Dance", "3:49", R.drawable.song_last_dance, "https://open.spotify.com/track/5VgVIhrH8TblQ5QRw7ILkn?autoplay=true", "https://music.youtube.com/watch?v=hxCegisp7lM&feature=gws_kp_track")
                 ),
-                "1 Hours"
+                "1 Hours",
+                R.drawable.album_dua_lipa
             )
         ),
         // Justin Bieber Album Lists
@@ -197,7 +202,8 @@ object ArtistsData {
                     Song("At Least For Now", "2:30", R.drawable.song_at_least_for_now, "https://open.spotify.com/track/6VLkgf5YmLixsabdqiCVGU?autoplay=true", "https://music.youtube.com/watch?v=s4VObu0_bEY&feature=gws_kp_track"),
                     Song("Yummy - Summer Walker Remix", "3:29", R.drawable.song_yummy, "https://open.spotify.com/track/18190jS9db6xIkdt6HkgXj?autoplay=true", "https://music.youtube.com/watch?v=9a_CcfAQt4Q&feature=gws_kp_track")
                 ),
-                "51 Minutes"
+                "51 Minutes",
+                R.drawable.album_changes
             ),
             Album(
                 "Purpose",
@@ -222,7 +228,8 @@ object ArtistsData {
                     Song("Trust", "3:24", R.drawable.song_trust, "https://open.spotify.com/track/00IH8ZjI9ZGB51WRX1Oesj?autoplay=true", "https://music.youtube.com/watch?v=riE7iELLun0&feature=gws_kp_track"),
                     Song("All In It", "3:51", R.drawable.song_all_in_it, "https://open.spotify.com/track/4kP50JQmyFrl9pLSmnFPZr?autoplay=true", "https://music.youtube.com/watch?v=Dmuxn3TG68c&feature=gws_kp_track")
                 ),
-                "1 Hours 9 Minutes"
+                "1 Hours 9 Minutes",
+                R.drawable.album_purpose
             )
         ),
         // Ariana Grande Album Lists
@@ -247,7 +254,8 @@ object ArtistsData {
                     Song("POV", "3:22", R.drawable.song_positions, "https://open.spotify.com/track/3RP1eXaK8f4rwqY9fRKVRF?si=d48N8KhGQEOiQMojdLyRjA", ""),
                     Song("Someone Like U - Interlude", "1:17", R.drawable.song_positions, "https://open.spotify.com/track/1bj8x3ERN9gSc2NfJIpc76?autoplay=true", "https://music.youtube.com/watch?v=QyF4aAQPw6c&feature=gws_kp_track")
                 ),
-                "51 Minutes"
+                "51 Minutes",
+                R.drawable.album_positions
             ),
             Album(
                 "thank u, next",
@@ -266,7 +274,8 @@ object ArtistsData {
                     Song("thank u, next", "3:27", R.drawable.song_thanku_next, "https://open.spotify.com/track/3e9HZxeyfWwjeyPAMmWSSQ?autoplay=true", "https://music.youtube.com/watch?v=GftZ601-pXs&feature=gws_kp_track"),
                     Song("break up with your girlfriend, i\'m bored", "3:10", R.drawable.song_break_up_with_your_girlfriend, "https://open.spotify.com/track/56feSEETtLwNjY5Xz8XbKI?autoplay=true", "https://music.youtube.com/watch?v=4nbYqWVXp7Q&feature=gws_kp_track"),
                 ),
-                "41 Minutes"
+                "41 Minutes",
+                R.drawable.album_thank_u_next
             )
         ),
         // Ed Sheeran Album Lists
@@ -291,7 +300,8 @@ object ArtistsData {
                     Song("Way To Break My Heart (feat. Skrillex)", "3:10", R.drawable.song_way_to_break_my_heart, "https://open.spotify.com/track/5d1rmWWF1725tnYjq6rMDB?autoplay=true", "https://music.youtube.com/watch?v=p-6aRjVrAPo&feature=gws_kp_track"),
                     Song("BLOW (with Chris Stapleton & Bruno Mars)", "3:29", R.drawable.song_blow, "https://open.spotify.com/track/6EbduYTr62sSzvl36wWiFM?autoplay=true", "https://music.youtube.com/watch?v=LW4t5exa-aE&feature=gws_kp_track")
                 ),
-                "49 Minutes"
+                "49 Minutes",
+                R.drawable.album_no_6_collaboration
             ),
             Album(
                 "÷",
@@ -314,7 +324,8 @@ object ArtistsData {
                     Song("Nancy Mulligan", "3:00", R.drawable.song_nancy_mulligan, "https://open.spotify.com/track/35QZaWQRkmnAVqBF1TLCxQ?autoplay=true", "https://music.youtube.com/watch?v=HkuHJRhRZjM&feature=gws_kp_track"),
                     Song("Save Myself", "4:07", R.drawable.song_save_myself, "https://open.spotify.com/track/6TIU9Ehmi6dMzZK73Ym4yj?autoplay=true", "https://music.youtube.com/watch?v=6iGtfjosOu0&feature=gws_kp_track")
                 ),
-                "59 Minutes"
+                "59 Minutes",
+                R.drawable.album_divide
             )
         ),
         // J Balvin Album Lists
@@ -334,7 +345,8 @@ object ArtistsData {
                     Song("Arcoiris", "3:07", R.drawable.song_arcoins, "https://open.spotify.com/track/0hsNFOIHVJwc0NdjBm0Aec?autoplay=true", "https://music.youtube.com/watch?v=toRGDbdquW8&feature=gws_kp_track"),
                     Song("Blanco", "2:26", R.drawable.song_blanco, "https://open.spotify.com/track/7jbgExbA7XemqghFmyO4ec?autoplay=true", "https://music.youtube.com/watch?v=3tPyuorcWOo&feature=gws_kp_track")
                 ),
-                "28 Minutes"
+                "28 Minutes",
+                R.drawable.album_colores
             ),
             Album(
                 "Oasis",
@@ -349,7 +361,8 @@ object ArtistsData {
                     Song("ODIO", "4:30", R.drawable.song_odio, "https://open.spotify.com/track/7alOsNr36sJ8CyOEP4aILq?autoplay=true", "https://music.youtube.com/watch?v=pHDKIEiB21Y&feature=gws_kp_track"),
                     Song("COMO UN BEBE", "3:39", R.drawable.song_como_un_bebe, "https://open.spotify.com/track/0RgqhguZnp7zlDf9s2Gjgr?autoplay=true", "https://music.youtube.com/watch?v=IZQAzOuvCs0&feature=gws_kp_track"),
                 ),
-                "31 Minutes"
+                "31 Minutes",
+                R.drawable.album_oasis
             )
         ),
         // Drake Album Lists
@@ -373,7 +386,8 @@ object ArtistsData {
                     Song("Demons (feat. Fivio Foreign & Sosa Geek)", "3:52", R.drawable.song_demons, "https://open.spotify.com/track/05aZ9sAU1YXndHv0FMi9iW?autoplay=true", "https://music.youtube.com/watch?v=2BH30d3rcs0&feature=gws_kp_track"),
                     Song("War", "3:00", R.drawable.song_deep_pockets, "https://open.spotify.com/track/51g4mohrWYmBO7s2V2OVWY?autoplay=true", "https://music.youtube.com/watch?v=JgMKDpdJ-4E&feature=gws_kp_track")
                 ),
-                "49 Minutes"
+                "49 Minutes",
+                R.drawable.album_dark_lane_demo_tapes
             ),
             Album(
                 "What A Time To Be Alive",
@@ -391,7 +405,8 @@ object ArtistsData {
                     Song("Jersey", "3:09", R.drawable.song_what_a_time_to_be_alive, "https://open.spotify.com/track/2ACys0pX0SjmpQmQWzp7wt?autoplay=true", "https://music.youtube.com/watch?v=cJzz0zz7JeU&feature=gws_kp_track"),
                     Song("30 for 30 Freestyle", "4:14", R.drawable.song_what_a_time_to_be_alive, "https://open.spotify.com/track/1svrFSGhPdKaFFinZSoltt?autoplay=true", "https://www.youtube.com/watch?v=Voa7FDezcTw"),
                 ),
-                "40 Minutes"
+                "40 Minutes",
+                R.drawable.album_what_a_time_to_be_alive
             )
         ),
         // Billie Eilish Album Lists
@@ -414,7 +429,8 @@ object ArtistsData {
                     Song("i love you", "4:52", R.drawable.song_i_love_you, "https://open.spotify.com/track/6CcJMwBtXByIz4zQLzFkKc?si=zQzq1e7NT2uEFSwaLNtT2g", "https://music.youtube.com/watch?v=WiinVuzh4DA&feature=gws_kp_track"),
                     Song("goodbye", "1:59", R.drawable.song_goodbye, "https://open.spotify.com/track/3LgWsmilsrWXiPYQFRD0T7?si=0R5mWTX9SiKQAqNG3B7OmA", "https://music.youtube.com/watch?v=vciZvVJyNYU&feature=gws_kp_track")
                 ),
-                "42 Minutes"
+                "42 Minutes",
+                R.drawable.album_when_we_all_fall_asleep
             )
         ),
         // Bad Bunny Album Lists
@@ -440,7 +456,8 @@ object ArtistsData {
                     Song("ANTES QUE SE ACABE", "3:41", R.drawable.song_antes_que_se_acabe, "https://open.spotify.com/track/7kjEqI6eZ7YlFrGhxixnlN?autoplay=true", "https://music.youtube.com/watch?v=dbR28mrGQIo&feature=gws_kp_track"),
                     Song("CANTARES DE NAVIDAD", "3:20", R.drawable.song_el_mundo_es_mio, "https://open.spotify.com/track/2Iv6YBslkxslMJQsxshZh5?autoplay=true", "https://music.youtube.com/watch?v=C5Zah_DmC6A&feature=gws_kp_track")
                 ),
-                "47 Minutes"
+                "47 Minutes",
+                R.drawable.album_el_ultimo_tour_del_mundo
             )
         ),
         // Maroon 5 Album Lists
@@ -465,7 +482,8 @@ object ArtistsData {
                     Song("Sex and Candy", "4:25", R.drawable.song_sex_and_candy, "https://open.spotify.com/track/4r5ZfnXb1nnXgzYZ28OZgY?si=04pKzOkER2uS1w0UgvjRSw", "https://www.youtube.com/watch?v=huSap4F9Q5g"),
                     Song("Lost Stars", "4:28", R.drawable.song_lost_stars, "https://open.spotify.com/track/1Duym1lVQurgKHHSqpOWhY?si=jFDRVSHXRwmeZjVXReIlBA", "https://www.youtube.com/watch?v=_wfITSWXjpU")
                 ),
-                "1 Hour 18 Minutes"
+                "1 Hour 18 Minutes",
+                R.drawable.album_v
             )
         )
     )
