@@ -2,6 +2,7 @@ package id.rosyid.topartists.ui.main.artists.detail
 
 import android.content.SharedPreferences
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.ToggleButton
@@ -38,8 +39,9 @@ class ListSongsActivity : AppCompatActivity() {
             )
         }
 
-        actionBar?.title = "List Songs"
-        actionBar?.subtitle = "Album ${dataAlbum.name}"
+        supportActionBar?.title = "List Songs"
+        supportActionBar?.subtitle = "Album ${dataAlbum.name}"
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         // Get view from Layout
         val ivAlbumImage: ImageView = findViewById(R.id.album_image)
@@ -74,5 +76,15 @@ class ListSongsActivity : AppCompatActivity() {
                 DividerItemDecoration.VERTICAL
             )
         )
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                return true
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

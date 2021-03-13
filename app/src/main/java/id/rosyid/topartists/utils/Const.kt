@@ -1,6 +1,7 @@
 package id.rosyid.topartists.utils
 
 object Const {
+    const val ARTIST_DATA = "ARTIST_DATA"
     const val IS_FIRST_TIME = "IS_FIRST_TIME"
     const val FAVORITE = "FAVORITE"
     const val ARTIST_NAME = "ARTIST_NAME"

@@ -48,7 +48,7 @@ class DetailArtistActivity : AppCompatActivity() {
         }
 
         title = "Detail Artist"
-        actionBar?.subtitle = dataArtist.name
+        supportActionBar?.subtitle = dataArtist.name
 
         // Get View from Layout
         val tvArtistName = findViewById<TextView>(R.id.artist_name)
@@ -126,12 +126,15 @@ class DetailArtistActivity : AppCompatActivity() {
             R.id.share -> {
                 val sendIntent = Intent().apply {
                     action = Intent.ACTION_SEND
-                    putExtra(Intent.EXTRA_TEXT, "Do you guys know? It turns out that ${dataArtist.name} is one of the artists with the highest number of monthly listeners this month, this data is based on data taken on Spotify. Want to know more? Come see the Top Artist application. https://www.github.com/rsdiz")
+                    putExtra(Intent.EXTRA_TEXT, "Do you guys know? It turns out that ${dataArtist.name} is one of the artists with the highest number of monthly listeners this month, this data is based on data taken on Spotify. Want to know more? Come see the Top Artist application. https://www.github.com/rsdiz/Top-Artist-Application")
                     type = "text/plain"
                 }
 
                 val shareIntent = Intent.createChooser(sendIntent, null)
                 startActivity(shareIntent)
+            }
+            android.R.id.home -> {
+                onBackPressed()
             }
         }
     }

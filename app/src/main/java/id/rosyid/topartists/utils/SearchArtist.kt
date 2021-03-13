@@ -1,18 +1,19 @@
 package id.rosyid.topartists.utils
 
 import id.rosyid.topartists.data.Artist
+import id.rosyid.topartists.data.ArtistsData
 import id.rosyid.topartists.data.Genre
 
 object SearchArtist {
-    fun byName(data: ArrayList<Artist>, name: String): List<Artist> {
+    fun byName(data: ArrayList<Artist> = ArtistsData.listData, name: String): List<Artist> {
         return data.filter { it.name == name }
     }
 
-    fun byGenre(data: ArrayList<Artist>, genre: Genre): List<Artist> {
+    fun byGenre(data: ArrayList<Artist> = ArtistsData.listData, genre: Genre): List<Artist> {
         return data.filter { it.genres.contains(genre) }
     }
 
-    fun byAlbumName(data: ArrayList<Artist>, albumName: String): Artist {
+    fun byAlbumName(data: ArrayList<Artist> = ArtistsData.listData, albumName: String): Artist {
         data.forEach {
             val result = it.albums.filter { it.name == albumName }
             if (result.isNotEmpty()) {

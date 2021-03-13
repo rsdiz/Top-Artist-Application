@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
             }
             this.findItem(R.id.nav_fork_on_github).setOnMenuItemClickListener {
                 drawerLayout.closeDrawers()
-                intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.github.com/rsdiz"))
+                intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.github.com/rsdiz/Top-Artist-Application"))
                 startActivity(intent)
                 true
             }

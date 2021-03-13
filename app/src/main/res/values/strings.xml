@@ -23,7 +23,7 @@
     <string name="text_share">Share</string>
     <string name="label_artist_image">Artist Image</string>
     <string name="value_default_position">1</string>
-    <string name="text_share_downloadnow">Thanks to the developer, for making this application, so I can see the list of artists with the most listeners this month, do you want to know? let\'s download the application at https://www.github.com/rsdiz</string>
+    <string name="text_share_downloadnow">Thanks to the developer, for making this application, so I can see the list of artists with the most listeners this month, do you want to know? let\'s download the application at https://www.github.com/rsdiz/Top-Artist-Application</string>
     <string name="author_name">Muhammad Rosyid Izzulkhaq</string>
     <string name="author_email">Email: rosyid.iz.rsd@gmail.com</string>
 </resources>
